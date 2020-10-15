@@ -4,9 +4,9 @@ import java.util.Arrays;
 import java.util.Iterator;
 
 public class ArraySet {
-	public int coucou2;
+	public int coucou3;
 	private Object[] arrayset = new Object[5];
-	private int nb;
+	private int nb; 
 
 	public ArraySet() {
 		super();
