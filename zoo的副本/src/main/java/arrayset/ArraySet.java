@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 
 public class ArraySet {
-public int coucou;
+	public int coucou;
 	private Object[] arrayset = new Object[5];
 	private int nb;
 
@@ -22,7 +22,7 @@ public int coucou;
 
 	public void add(Object object1) {
 		for (int i = 0; i < nb; i++) {
-			if(arrayset[i].equals(object1)) {
+			if (arrayset[i].equals(object1)) {
 				return;
 			}
 		}
@@ -42,7 +42,6 @@ public int coucou;
 			nb++;
 		}
 	}
-	
 
 	@Override
 	public String toString() {
