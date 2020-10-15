@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 
 public class ArraySet {
-	public int coucou;
+	public int coucou2;
 	private Object[] arrayset = new Object[5];
 	private int nb;
 
